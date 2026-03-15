@@ -19,7 +19,7 @@ const TopSectionsNav = () => (
           <img
             src="/images/aureocosta/LOGO-SITE-AUREOCOSTA.png"
             alt="Logo Áureo Costa"
-            className="w-[3.75rem] h-[3.75rem] rounded-full object-contain bg-white p-1"
+            className="w-[3rem] h-[3rem] rounded-full object-contain bg-white p-1"
           />
         </a>
         {items.map((item) => (
