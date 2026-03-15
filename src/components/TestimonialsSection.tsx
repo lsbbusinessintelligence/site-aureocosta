@@ -2,6 +2,14 @@ import { motion } from "framer-motion";
 import { MessageCircle } from "lucide-react";
 import { WHATSAPP_URL } from "@/lib/siteConfig";
 
+const reviewImages = [
+  { src: "/images/aureocosta/AUREOCOSTA07.jpeg", alt: "Avaliação real no Google - cliente 1" },
+  { src: "/images/aureocosta/AUREOCOSTA08.jpeg", alt: "Avaliação real no Google - cliente 2" },
+  { src: "/images/aureocosta/AUREOCOSTA09.jpeg", alt: "Avaliação real no Google - cliente 3" },
+  { src: "/images/aureocosta/AUREOCOSTA10.jpeg", alt: "Avaliação real no Google - cliente 4" },
+  { src: "/images/aureocosta/AUREOCOSTA11.jpeg", alt: "Avaliação real no Google - cliente 5" },
+];
+
 const testimonials = [
   {
     name: "Jéssica Teles",
@@ -63,6 +71,40 @@ const TestimonialsSection = () => (
             <p className="text-muted-foreground leading-relaxed">"{item.text}"</p>
           </motion.article>
         ))}
+      </div>
+
+      <div className="mt-12">
+        <p className="text-center text-sm text-muted-foreground mb-6 font-medium">Avaliações reais capturadas do Google</p>
+        <div className="flex flex-col gap-6">
+          <div className="grid gap-6 sm:grid-cols-3">
+            {reviewImages.slice(0, 3).map((img, index) => (
+              <motion.figure
+                key={img.src}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: index * 0.08 }}
+                className="overflow-hidden rounded-2xl border border-border bg-card shadow-sm"
+              >
+                <img src={img.src} alt={img.alt} loading="lazy" className="w-full h-auto object-cover" />
+              </motion.figure>
+            ))}
+          </div>
+          <div className="grid gap-6 sm:grid-cols-2 sm:max-w-2xl sm:mx-auto w-full">
+            {reviewImages.slice(3).map((img, index) => (
+              <motion.figure
+                key={img.src}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: (index + 3) * 0.08 }}
+                className="overflow-hidden rounded-2xl border border-border bg-card shadow-sm"
+              >
+                <img src={img.src} alt={img.alt} loading="lazy" className="w-full h-auto object-cover" />
+              </motion.figure>
+            ))}
+          </div>
+        </div>
       </div>
 
       <motion.div

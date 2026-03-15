@@ -3,7 +3,6 @@ const items = [
   { label: "Nossos serviços", href: "#servicos" },
   { label: "Por que contratar", href: "#porque" },
   { label: "Trabalhos", href: "#obras" },
-  { label: "Atendimentos", href: "#feedbacks" },
   { label: "Depoimentos", href: "#avaliacoes" },
   { label: "Fale Conosco", href: "#contato" },
 ];
