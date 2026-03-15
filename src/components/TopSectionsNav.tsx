@@ -26,7 +26,7 @@ const TopSectionsNav = () => (
           <a
             key={item.href}
             href={item.href}
-            className="shrink-0 rounded-full border border-white/15 bg-white/10 px-4 py-2 text-xs sm:text-sm font-medium text-primary-foreground transition hover:bg-accent hover:text-accent-foreground"
+            className="shrink-0 inline-flex items-center justify-center text-center rounded-full border border-white/15 bg-white/10 px-4 py-2 text-xs sm:text-sm font-medium text-primary-foreground transition hover:bg-accent hover:text-accent-foreground"
           >
             {item.label}
           </a>

@@ -28,7 +28,7 @@ const HeroSection = () => (
             <img
               src="/images/aureocosta/LOGO-SITE-AUREOCOSTA.png"
               alt="Logo Áureo Costa"
-              className="w-10 h-10 rounded-full object-contain bg-white p-1 border border-white/40"
+              className="w-12 h-12 rounded-full object-contain bg-white p-1 border border-white/40"
             />
             <span className="text-xs md:text-sm text-primary-foreground/90 font-medium">
               Áureo Costa | Serviços Residenciais
