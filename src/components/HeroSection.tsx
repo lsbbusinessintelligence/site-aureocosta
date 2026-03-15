@@ -26,9 +26,9 @@ const HeroSection = () => (
         >
           <div className="inline-flex items-center gap-3 mb-5 rounded-full bg-white/10 border border-white/20 px-3 py-2">
             <img
-              src="/images/aureocosta/AUREOCOSTA01.jpeg"
-              alt="Áureo Costa em atendimento"
-              className="w-9 h-9 rounded-full object-cover border border-white/40"
+              src="/images/aureocosta/LOGO-SITE-AUREOCOSTA.png"
+              alt="Logo Áureo Costa"
+              className="w-10 h-10 rounded-full object-contain bg-white p-1 border border-white/40"
             />
             <span className="text-xs md:text-sm text-primary-foreground/90 font-medium">
               Áureo Costa | Serviços Residenciais
