@@ -1,15 +1,12 @@
 import { motion } from "framer-motion";
 
 const photos = [
-  { src: "/images/aureocosta/AUREOCOSTA02.jpeg", alt: "Serviço residencial do Sr. Áureo" },
-  { src: "/images/aureocosta/AUREOCOSTA03.jpeg", alt: "Instalação e reparo residencial" },
-  { src: "/images/aureocosta/AUREOCOSTA05.jpeg", alt: "Manutenção em ambiente interno" },
-  { src: "/images/aureocosta/AUREOCOSTA06.jpeg", alt: "Acabamento com capricho" },
-  { src: "/images/aureocosta/AUREOCOSTA08.jpeg", alt: "Montagem e ajustes residenciais" },
-  { src: "/images/aureocosta/AUREOCOSTA09.jpeg", alt: "Serviço completo em residência" },
-  { src: "/images/aureocosta/AUREOCOSTA10.jpeg", alt: "Detalhe de instalação técnica" },
-  { src: "/images/aureocosta/AUREOCOSTA11.jpeg", alt: "Resultado final organizado" },
-  { src: "/images/aureocosta/AUREOCOSTA04.jpeg", alt: "Atendimento profissional em domicílio" },
+  { src: "/images/aureocosta/AUREOCOSTA01.jpeg", alt: "Serviço residencial do Sr. Áureo" },
+  { src: "/images/aureocosta/AUREOCOSTA02.jpeg", alt: "Instalação e reparo residencial" },
+  { src: "/images/aureocosta/AUREOCOSTA03.jpeg", alt: "Manutenção em ambiente interno" },
+  { src: "/images/aureocosta/AUREOCOSTA04.jpeg", alt: "Acabamento com capricho" },
+  { src: "/images/aureocosta/AUREOCOSTA05.jpeg", alt: "Montagem e ajustes residenciais" },
+  { src: "/images/aureocosta/AUREOCOSTA06.jpeg", alt: "Atendimento profissional em domicílio" },
 ];
 
 const GaleriaSection = () => (

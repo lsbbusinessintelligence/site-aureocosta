@@ -1,9 +1,11 @@
 import { motion } from "framer-motion";
 
 const feedbackImages = [
-  { src: "/images/aureocosta/AUREOCOSTA01.jpeg", alt: "Registro de serviço residencial 1" },
-  { src: "/images/aureocosta/AUREOCOSTA06.jpeg", alt: "Registro de serviço residencial 2" },
-  { src: "/images/aureocosta/AUREOCOSTA11.jpeg", alt: "Registro de serviço residencial 3" },
+  { src: "/images/aureocosta/AUREOCOSTA07.jpeg", alt: "Registro de atendimento residencial 1" },
+  { src: "/images/aureocosta/AUREOCOSTA08.jpeg", alt: "Registro de atendimento residencial 2" },
+  { src: "/images/aureocosta/AUREOCOSTA09.jpeg", alt: "Registro de atendimento residencial 3" },
+  { src: "/images/aureocosta/AUREOCOSTA10.jpeg", alt: "Registro de atendimento residencial 4" },
+  { src: "/images/aureocosta/AUREOCOSTA11.jpeg", alt: "Registro de atendimento residencial 5" },
 ];
 
 const FeedbacksSection = () => (
@@ -24,24 +26,45 @@ const FeedbacksSection = () => (
         </p>
       </motion.div>
 
-      <div className="grid gap-6 md:grid-cols-3">
-        {feedbackImages.map((image, index) => (
-          <motion.figure
-            key={image.src}
-            initial={{ opacity: 0, y: 24 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.45, delay: index * 0.08 }}
-            className="overflow-hidden rounded-3xl border border-border bg-card shadow-sm"
-          >
-            <img
-              src={image.src}
-              alt={image.alt}
-              loading="lazy"
-              className="w-full h-full object-cover"
-            />
-          </motion.figure>
-        ))}
+      <div className="flex flex-col gap-6">
+        <div className="grid gap-6 sm:grid-cols-3">
+          {feedbackImages.slice(0, 3).map((image, index) => (
+            <motion.figure
+              key={image.src}
+              initial={{ opacity: 0, y: 24 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.45, delay: index * 0.08 }}
+              className="overflow-hidden rounded-3xl border border-border bg-card shadow-sm"
+            >
+              <img
+                src={image.src}
+                alt={image.alt}
+                loading="lazy"
+                className="w-full h-full object-cover"
+              />
+            </motion.figure>
+          ))}
+        </div>
+        <div className="grid gap-6 sm:grid-cols-2 sm:max-w-2xl sm:mx-auto w-full">
+          {feedbackImages.slice(3).map((image, index) => (
+            <motion.figure
+              key={image.src}
+              initial={{ opacity: 0, y: 24 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.45, delay: (index + 3) * 0.08 }}
+              className="overflow-hidden rounded-3xl border border-border bg-card shadow-sm"
+            >
+              <img
+                src={image.src}
+                alt={image.alt}
+                loading="lazy"
+                className="w-full h-full object-cover"
+              />
+            </motion.figure>
+          ))}
+        </div>
       </div>
     </div>
   </section>
