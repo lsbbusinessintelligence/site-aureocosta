@@ -4,28 +4,20 @@ import { WHATSAPP_URL } from "@/lib/siteConfig";
 
 const testimonials = [
   {
-    name: "Victor Rocha",
-    text: "Trabalho de excelente qualidade, capricho e o melhor, sem enrolação.",
+    name: "Jéssica Teles",
+    text: "Venho registrar minha satisfação com o excelente serviço prestado pelo Áureo. A instalação do lustre, da luminária e o reparo do batente da porta foram executados com muito profissionalismo e cuidado. A qualidade do trabalho, aliada à pontualidade e à atenção aos detalhes, demonstram verdadeira excelência técnica. Parabenizo pelo comprometimento e pela competência demonstrados. Recomendo seus serviços com plena confiança. Ganhou uma cliente.",
   },
   {
-    name: "João Pedro",
-    text: "Excelente profissional! Muito pontual, organizado e caprichoso no trabalho. Recomendo de olhos fechados!",
+    name: "João Gonçalves",
+    text: "Conheci o Áureo, porque precisei consertar o meu fogão. Agora sou cliente dele. Ele é um profissional excelente, muito educado e de extrema confiança. O valor pelo seu trabalho é normal, nada abusivo. Muito difícil encontrar alguém como ele. Merece todo o nosso apoio. Muito obrigado, Áureo.",
   },
   {
-    name: "Thays Freitas",
-    text: "Excelente profissional, terminou o serviço antes do prazo, serviço com qualidade, rapidez e preço justo. Obrigada, Sr. Cícero.",
+    name: "Magda Silva",
+    text: "Excelente trabalho, excelente profissional. Não enrola. Nota 10. Meu armário de banheiro ficou maravilhoso!! Gratidão.",
   },
   {
-    name: "Alane Brito",
-    text: "Profissional excelente e muito atencioso. Trabalho executado com muito capricho na pintura e cimento queimado da minha sala.",
-  },
-  {
-    name: "Paula Vila Nova",
-    text: "Atendimento rápido e explicação clara dos materiais. Trabalho realizado com prioridade e muita agilidade.",
-  },
-  {
-    name: "Sara Baruk",
-    text: "Muito gente boa e faz um ótimo serviço. Trocou os pisos do meu apartamento rapidamente e com boa execução.",
+    name: "Wérlen Santos",
+    text: "Excelente trabalho. Instalou minha lava louças e uma torneira gourmet, ainda trocou um spot de luz do banheiro. Trabalho rápido e bem feito.",
   },
 ];
 
@@ -40,18 +32,18 @@ const TestimonialsSection = () => (
         className="text-center max-w-3xl mx-auto mb-14"
       >
         <h2 className="text-3xl md:text-4xl font-bold mb-4">
-          Avaliações Reais no <span className="text-gradient">Google Maps</span>
+          Depoimentos de <span className="text-gradient">Clientes Reais</span>
         </h2>
         <p className="text-muted-foreground text-lg">
-          Clientes destacam capricho, rapidez e transparência no atendimento da RápidaForma.
+          Quem contrata o Sr. Áureo destaca confiança, rapidez e excelência técnica nos serviços residenciais.
         </p>
         <div className="mt-5 flex flex-wrap justify-center items-center gap-3 text-sm">
           <span className="inline-flex items-center gap-2 rounded-full bg-accent/10 border border-accent/30 px-4 py-2 font-semibold text-foreground">
             <span className="text-yellow-500">★★★★★</span>
-            Nota média 5.0 no Google
+            Atendimento 5 estrelas
           </span>
           <span className="inline-flex items-center gap-2 rounded-full bg-card border border-border px-4 py-2 text-muted-foreground">
-            Avaliações reais de clientes da região
+            Feedbacks de confiança em Embu das Artes e região
           </span>
         </div>
       </motion.div>
@@ -95,7 +87,7 @@ const TestimonialsSection = () => (
           }}
         >
           <MessageCircle className="w-5 h-5" />
-          Quero um orçamento igual ao dos clientes satisfeitos
+          Quero solicitar meu orçamento agora
         </a>
       </motion.div>
     </div>

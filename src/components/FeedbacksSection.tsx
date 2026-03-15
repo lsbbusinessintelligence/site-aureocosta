@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 
 const feedbackImages = [
-  { src: "/images/rapidaforma/obra-01.jpeg", alt: "Feedback visual 1 da RápidaForma" },
-  { src: "/images/rapidaforma/obra-02.jpeg", alt: "Feedback visual 2 da RápidaForma" },
-  { src: "/images/rapidaforma/obra-03.jpeg", alt: "Feedback visual 3 da RápidaForma" },
+  { src: "/images/aureocosta/AUREOCOSTA01.jpeg", alt: "Registro de serviço residencial 1" },
+  { src: "/images/aureocosta/AUREOCOSTA06.jpeg", alt: "Registro de serviço residencial 2" },
+  { src: "/images/aureocosta/AUREOCOSTA11.jpeg", alt: "Registro de serviço residencial 3" },
 ];
 
 const FeedbacksSection = () => (
@@ -17,10 +17,10 @@ const FeedbacksSection = () => (
         className="text-center max-w-3xl mx-auto mb-14"
       >
         <h2 className="text-3xl md:text-4xl font-bold mb-4">
-          Feedbacks <span className="text-gradient">dos Clientes</span>
+          Registro de <span className="text-gradient">Atendimentos Reais</span>
         </h2>
         <p className="text-muted-foreground text-lg">
-          Registros compartilhados por clientes e materiais de divulgação da RápidaForma reunidos em um só lugar.
+          Imagens de atendimentos executados com foco em rapidez, organização e solução do problema.
         </p>
       </motion.div>
 

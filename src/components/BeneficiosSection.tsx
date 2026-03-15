@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
-import { Clock3, Award, MessageSquare, Brush } from "lucide-react";
+import { Wrench, Wallet, Brush, Clock3 } from "lucide-react";
 
 const benefits = [
-  { icon: Clock3, title: "Sem Enrolação", desc: "Cumprimos o prazo combinado à risca, com planejamento e compromisso." },
-  { icon: Award, title: "Capricho nos Detalhes", desc: "Acabamento de excelência reconhecido por quem já contratou." },
-  { icon: MessageSquare, title: "Transparência Total", desc: "Orientação clara sobre materiais, custos e etapas da obra." },
-  { icon: Brush, title: "Limpeza", desc: "Respeitamos seu espaço, mantendo organização do início ao fim." },
+  { icon: Wrench, title: "Multifuncional", desc: "Você não precisa chamar três profissionais. O Áureo resolve tudo em uma única visita." },
+  { icon: Wallet, title: "Transparência e Preço Justo", desc: "Orçamentos claros, sem enrolação e com valor justo pelo serviço." },
+  { icon: Brush, title: "Limpeza Pós-Serviço", desc: "Respeito total ao seu lar, deixando o ambiente organizado após o atendimento." },
+  { icon: Clock3, title: "Pontualidade", desc: "Atendimento com hora marcada e foco total no seu prazo." },
 ];
 
 const BeneficiosSection = () => (
@@ -19,7 +19,7 @@ const BeneficiosSection = () => (
         className="text-center max-w-2xl mx-auto mb-14"
       >
         <h2 className="text-3xl md:text-4xl font-bold mb-4">
-          Por que a <span className="text-gradient">RápidaForma?</span>
+          Por que contratar o <span className="text-gradient">Sr. Áureo?</span>
         </h2>
       </motion.div>
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">

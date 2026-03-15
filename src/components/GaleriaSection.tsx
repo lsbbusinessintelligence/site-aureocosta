@@ -1,15 +1,15 @@
 import { motion } from "framer-motion";
 
 const photos = [
-  { src: "/images/rapidaforma/obra-05.jpeg", alt: "Estrutura de obra em construção" },
-  { src: "/images/rapidaforma/obra-06.jpeg", alt: "Assentamento de piso porcelanato" },
-  { src: "/images/rapidaforma/obra-07.jpeg", alt: "Cimento queimado e acabamento" },
-  { src: "/images/rapidaforma/obra-08.jpeg", alt: "Instalação de revestimento cerâmico" },
-  { src: "/images/rapidaforma/obra-09.jpeg", alt: "Reforma com acabamento em piso" },
-  { src: "/images/rapidaforma/obra-11.jpeg", alt: "Execução de obra estrutural" },
-  { src: "/images/rapidaforma/obra-12.jpeg", alt: "Piso finalizado com brilho" },
-  { src: "/images/rapidaforma/obra-13.jpeg", alt: "Ambiente finalizado com pintura" },
-  { src: "/images/rapidaforma/obra-14.jpeg", alt: "Parede com acabamento profissional" },
+  { src: "/images/aureocosta/AUREOCOSTA02.jpeg", alt: "Serviço residencial do Sr. Áureo" },
+  { src: "/images/aureocosta/AUREOCOSTA03.jpeg", alt: "Instalação e reparo residencial" },
+  { src: "/images/aureocosta/AUREOCOSTA05.jpeg", alt: "Manutenção em ambiente interno" },
+  { src: "/images/aureocosta/AUREOCOSTA06.jpeg", alt: "Acabamento com capricho" },
+  { src: "/images/aureocosta/AUREOCOSTA08.jpeg", alt: "Montagem e ajustes residenciais" },
+  { src: "/images/aureocosta/AUREOCOSTA09.jpeg", alt: "Serviço completo em residência" },
+  { src: "/images/aureocosta/AUREOCOSTA10.jpeg", alt: "Detalhe de instalação técnica" },
+  { src: "/images/aureocosta/AUREOCOSTA11.jpeg", alt: "Resultado final organizado" },
+  { src: "/images/aureocosta/AUREOCOSTA04.jpeg", alt: "Atendimento profissional em domicílio" },
 ];
 
 const GaleriaSection = () => (
@@ -23,10 +23,10 @@ const GaleriaSection = () => (
         className="text-center max-w-3xl mx-auto mb-14"
       >
         <h2 className="text-3xl md:text-4xl font-bold mb-4">
-          Obras e Resultados <span className="text-gradient">RápidaForma</span>
+          Trabalhos e Resultados <span className="text-gradient">do Sr. Áureo</span>
         </h2>
         <p className="text-muted-foreground text-lg">
-          Registro real de serviços de pintura, reforma, pisos e revestimentos executados pela equipe.
+          Fotos reais de reparos, instalações e acabamentos executados em casas e comércios da região.
         </p>
       </motion.div>
 

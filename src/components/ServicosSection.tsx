@@ -1,26 +1,26 @@
 import { motion } from "framer-motion";
-import { PaintRoller, HousePlus, Grid2x2, Sparkles } from "lucide-react";
+import { Wrench, Drill, PaintRoller, Settings } from "lucide-react";
 
 const services = [
   {
+    icon: Wrench,
+    title: "Reparos Elétricos e Hidráulicos",
+    desc: "Instalação de chuveiros, torneiras, ventiladores de teto, suportes de TV, quadros e conserto de vazamentos.",
+  },
+  {
+    icon: Drill,
+    title: "Montagem e Marcenaria",
+    desc: "Montagem e desmontagem de móveis, reparos em armários e serviços de carpinteiro ou marceneiro.",
+  },
+  {
     icon: PaintRoller,
-    title: "Pintura Profissional",
-    desc: "Pintura interna, externa e aplicação de cimento queimado com acabamento uniforme.",
+    title: "Reformas e Acabamentos",
+    desc: "Instalação de pisos e azulejos, drywall, pintura residencial e serviços de pedreiro em geral.",
   },
   {
-    icon: HousePlus,
-    title: "Reformas em Geral",
-    desc: "Do rústico ao acabamento, cuidamos de cada detalhe da sua casa ou comércio.",
-  },
-  {
-    icon: Grid2x2,
-    title: "Pisos e Revestimentos",
-    desc: "Instalação rápida e precisa de pisos, azulejos e porcelanatos.",
-  },
-  {
-    icon: Sparkles,
-    title: "Acabamentos Finos",
-    desc: "Retirada de texturas, massa corrida e reparos que exigem capricho.",
+    icon: Settings,
+    title: "Manutenção Especializada",
+    desc: "Desentupimento, instalação de varais, prateleiras e construção geral com atenção aos detalhes.",
   },
 ];
 
@@ -38,7 +38,7 @@ const ServicosSection = () => (
           Nossos <span className="text-gradient">Serviços</span>
         </h2>
         <p className="text-muted-foreground text-lg">
-          Soluções completas em obra, reforma e pintura para residências e comércios
+          Versatilidade para resolver os reparos e instalações da sua casa ou comércio em uma única visita.
         </p>
       </motion.div>
       <div className="grid md:grid-cols-2 gap-6">

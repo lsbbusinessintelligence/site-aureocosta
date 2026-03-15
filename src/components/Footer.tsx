@@ -8,7 +8,7 @@ const Footer = () => (
         <div>
           <h3 className="text-xl font-bold mb-4">{COMPANY.name}</h3>
           <p className="text-primary-foreground/70 mb-4">
-            Reformas, pinturas e acabamentos com foco em capricho, transparência e obra sem enrolação.
+            Marido de aluguel para serviços residenciais e comerciais com foco em confiança, capricho e solução rápida.
           </p>
           <p className="text-primary-foreground/80">Responsável: {COMPANY.owner}</p>
           <p className="text-primary-foreground/80">WhatsApp: {COMPANY.phone}</p>
@@ -20,15 +20,16 @@ const Footer = () => (
           </h3>
           <ul className="text-primary-foreground/70 space-y-2">
             <li>• {COMPANY.location}</li>
-            <li>• Taboão da Serra</li>
             <li>• Embu das Artes</li>
+            <li>• Taboão da Serra</li>
+            <li>• Cotia</li>
             <li>• Grande São Paulo</li>
           </ul>
         </div>
       </div>
       <div className="mt-8 pt-8 border-t border-primary-foreground/20 text-center text-primary-foreground/60">
         <p>&copy; {new Date().getFullYear()} {COMPANY.shortName}. Todos os direitos reservados.</p>
-        <p className="mt-2">Site desenvolvido por LSB Business Intelligence.</p>
+        <p className="mt-2">Site desenvolvido por LSB Business Intelligence</p>
       </div>
     </div>
   </footer>

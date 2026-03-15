@@ -1,10 +1,10 @@
 const items = [
   { label: "Home", href: "#home" },
   { label: "Nossos serviços", href: "#servicos" },
-  { label: "Por que a RápidaForma", href: "#porque" },
-  { label: "Obras e Resultados", href: "#obras" },
-  { label: "Feedbacks", href: "#feedbacks" },
-  { label: "Avaliações Reais", href: "#avaliacoes" },
+  { label: "Por que contratar", href: "#porque" },
+  { label: "Trabalhos", href: "#obras" },
+  { label: "Atendimentos", href: "#feedbacks" },
+  { label: "Depoimentos", href: "#avaliacoes" },
   { label: "Fale Conosco", href: "#contato" },
 ];
 

@@ -13,16 +13,16 @@ const CtaSection = () => (
         className="text-center max-w-2xl mx-auto"
       >
         <h2 className="text-3xl md:text-4xl font-bold text-primary-foreground mb-4">
-          Solicite seu orçamento grátis agora
+          Resolva seus reparos com quem entrega resultado
         </h2>
         <p className="text-primary-foreground/70 text-lg mb-10">
-          Fale direto com o {COMPANY.owner} e receba orientação clara para sua obra, sem compromisso.
+          Fale direto com o {COMPANY.owner} e receba um orçamento claro para serviços residenciais em Embu das Artes e região.
         </p>
         <a
           href={WHATSAPP_URL}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-3 px-8 py-4 rounded-lg bg-[#0A2E73] text-white font-semibold text-lg hover:bg-[#133f96] transition-all duration-200 shadow-[0_0_30px_-10px_rgba(10,46,115,0.9)]"
+          className="inline-flex items-center gap-3 px-8 py-4 rounded-lg bg-accent text-accent-foreground font-semibold text-lg hover:brightness-110 transition-all duration-200 shadow-[0_0_30px_-10px_rgba(39,174,96,0.9)]"
           onClick={() => {
             if (typeof window !== 'undefined' && (window as any).gtag) {
               (window as any).gtag('event', 'click_whatsapp', {
@@ -33,7 +33,7 @@ const CtaSection = () => (
           }}
         >
           <MessageCircle className="w-5 h-5" />
-          Solicitar Orçamento Grátis
+          Solicitar Orçamento via WhatsApp
         </a>
       </motion.div>
     </div>

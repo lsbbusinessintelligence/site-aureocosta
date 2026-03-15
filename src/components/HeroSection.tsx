@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
-import { MessageCircle, Check, Hammer, PaintRoller } from "lucide-react";
-import { COMPANY, WHATSAPP_URL } from "@/lib/siteConfig";
+import { MessageCircle, Check, Wrench, ShieldCheck } from "lucide-react";
+import { WHATSAPP_URL } from "@/lib/siteConfig";
 
 const HeroSection = () => (
   <section id="home" className="hero-gradient relative overflow-hidden min-h-[90vh] flex items-center scroll-mt-28">
     <div className="absolute inset-0 opacity-10">
-      <div className="absolute top-20 right-20 w-96 h-96 rounded-full bg-[#FF8C00]/20 blur-3xl animate-pulse" style={{ animationDuration: "4s" }} />
-      <div className="absolute bottom-20 left-10 w-72 h-72 rounded-full bg-[#FF8C00]/15 blur-3xl animate-pulse" style={{ animationDuration: "3s" }} />
+      <div className="absolute top-20 right-20 w-96 h-96 rounded-full bg-accent/20 blur-3xl animate-pulse" style={{ animationDuration: "4s" }} />
+      <div className="absolute bottom-20 left-10 w-72 h-72 rounded-full bg-accent/20 blur-3xl animate-pulse" style={{ animationDuration: "3s" }} />
       <div className="absolute top-1/2 left-1/2 w-64 h-64 rounded-full bg-white/10 blur-3xl animate-pulse" style={{ animationDuration: "5s" }} />
     </div>
 
@@ -26,32 +26,31 @@ const HeroSection = () => (
         >
           <div className="inline-flex items-center gap-3 mb-5 rounded-full bg-white/10 border border-white/20 px-3 py-2">
             <img
-              src="/images/rapidaforma/obra-04.jpeg"
-              alt="Logo RápidaForma"
+              src="/images/aureocosta/AUREOCOSTA01.jpeg"
+              alt="Áureo Costa em atendimento"
               className="w-9 h-9 rounded-full object-cover border border-white/40"
             />
             <span className="text-xs md:text-sm text-primary-foreground/90 font-medium">
-              RápidaForma | Reformas em geral e Pinturas
+              Áureo Costa | Serviços Residenciais
             </span>
           </div>
           <div className="flex items-center gap-3 mb-6">
             <div className="relative">
-              <Hammer className="w-10 h-10 text-accent relative z-10" />
+              <Wrench className="w-10 h-10 text-accent relative z-10" />
               <div className="absolute inset-0 bg-accent/20 blur-xl rounded-full" />
             </div>
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-primary-foreground mb-6">
-            RápidaForma | Reformas e Pinturas{" "}
-            <span className="text-gradient">com Qualidade e Agilidade</span>
+            Áureo Costa | Soluções Completas para sua Casa ou Comércio
           </h1>
           <p className="text-lg md:text-xl text-primary-foreground/70 mb-10 max-w-2xl">
-            Especialistas em Taboão da Serra e região. O Sr. Cícero e sua equipe entregam sua obra com rapidez, limpeza e a confiança que você procura.
+            Marido de Aluguel em Embu das Artes e região. O Sr. Áureo resolve desde pequenos reparos até instalações complexas com rapidez, limpeza e a confiança que você precisa.
           </p>
           <a
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-3 px-8 py-4 rounded-lg bg-[#0A2E73] text-white font-semibold text-lg hover:bg-[#133f96] transition-all duration-200 shadow-[0_0_30px_-10px_rgba(10,46,115,0.9)]"
+            className="inline-flex items-center gap-3 px-8 py-4 rounded-lg bg-accent text-accent-foreground font-semibold text-lg hover:brightness-110 transition-all duration-200 shadow-[0_0_30px_-10px_rgba(39,174,96,0.9)]"
             onClick={() => {
               if (typeof window !== 'undefined' && (window as any).gtag) {
                 (window as any).gtag('event', 'click_whatsapp', {
@@ -62,24 +61,24 @@ const HeroSection = () => (
             }}
           >
             <MessageCircle className="w-5 h-5" />
-            Solicitar Orçamento Grátis
+            Solicitar Orçamento via WhatsApp
           </a>
           <div className="mt-8 flex flex-col gap-3">
             <span className="flex items-center gap-2 text-primary-foreground/80 text-sm md:text-base font-semibold">
               <Check className="w-5 h-5 text-accent flex-shrink-0" />
-              Obras residenciais e comerciais na Grande São Paulo
+              Atendimento residencial e comercial em Embu das Artes e região
             </span>
             <span className="flex items-center gap-2 text-primary-foreground/60 text-sm ml-7">
               <Check className="w-4 h-4 text-accent/70 flex-shrink-0" />
-              Orçamento transparente pelo WhatsApp
+              Reparos elétricos, hidráulicos, montagem e acabamentos
             </span>
             <span className="flex items-center gap-2 text-primary-foreground/60 text-sm ml-7">
               <Check className="w-4 h-4 text-accent/70 flex-shrink-0" />
-              Capricho em cada etapa da obra
+              Orçamento transparente e atendimento com hora marcada
             </span>
             <span className="flex items-center gap-2 text-primary-foreground/60 text-sm ml-7">
               <Check className="w-4 h-4 text-accent/70 flex-shrink-0" />
-              Zero enrolação no prazo combinado
+              Limpeza pós-serviço e foco total em resolver o problema
             </span>
           </div>
         </motion.div>
@@ -93,15 +92,15 @@ const HeroSection = () => (
           <div className="bg-gradient-to-br from-[#f6fbff] to-[#dff1ff] rounded-3xl shadow-2xl p-6 max-w-md border border-white/40">
             <div className="relative overflow-hidden rounded-2xl bg-[#f8fcff]">
               <img
-                src="/images/rapidaforma/obra-10.jpeg"
-                alt="Equipe da RápidaForma em obra"
+                src="/images/aureocosta/AUREOCOSTA04.jpeg"
+                alt="Serviço residencial executado pelo Sr. Áureo"
                 className="w-full h-auto"
               />
             </div>
             <div className="relative overflow-hidden rounded-2xl bg-[#f8fcff] mt-4">
               <img
-                src="/images/rapidaforma/obra-12.jpeg"
-                alt="Resultado de piso finalizado"
+                src="/images/aureocosta/AUREOCOSTA07.jpeg"
+                alt="Acabamento residencial realizado com capricho"
                 className="w-full h-auto"
               />
             </div>
@@ -113,17 +112,17 @@ const HeroSection = () => (
                 ))}
               </div>
               <p className="text-[#1f4f73] font-semibold text-base mb-2">
-                "Capricho, pontualidade e acabamento impecável."
+                "Pontual, organizado e com serviço limpo."
               </p>
               <p className="text-[#4f7b97] text-sm">
-                Clientes reais no Google Maps
+                Clientes reais recomendam o Sr. Áureo
               </p>
             </div>
           </div>
 
           <div className="inline-flex items-center gap-2 rounded-full bg-card/90 border border-accent/20 px-5 py-2 text-sm text-foreground shadow">
-            <PaintRoller className="w-4 h-4 text-accent" />
-            Pintura, piso, revestimento e acabamento fino
+            <ShieldCheck className="w-4 h-4 text-accent" />
+            Soluções completas para sua casa sem dor de cabeça
           </div>
         </motion.div>
       </div>

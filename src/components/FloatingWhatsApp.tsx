@@ -2,7 +2,7 @@ import { MessageCircle, Phone } from "lucide-react";
 import { motion } from "framer-motion";
 import { WHATSAPP_URL } from "@/lib/siteConfig";
 
-const PHONE_URL = "tel:+5511995250023";
+const PHONE_URL = "tel:+5511958989960";
 
 const FloatingWhatsApp = () => {
   return (
@@ -28,12 +28,12 @@ const FloatingWhatsApp = () => {
         }}
       >
         <MessageCircle className="w-5 h-5" />
-        <span className="font-semibold text-sm">Whatsapp</span>
+        <span className="font-semibold text-sm">WhatsApp</span>
       </a>
 
       <a
         href={PHONE_URL}
-        className="h-12 sm:h-14 min-w-[116px] sm:min-w-[126px] rounded-full bg-[#0A2E73] hover:bg-[#133f96] text-white shadow-lg hover:shadow-xl transition-all duration-200 flex items-center justify-center gap-2 px-4"
+        className="h-12 sm:h-14 min-w-[116px] sm:min-w-[126px] rounded-full bg-primary hover:brightness-110 text-white shadow-lg hover:shadow-xl transition-all duration-200 flex items-center justify-center gap-2 px-4"
         title="Ligar agora"
         onClick={() => {
           if (typeof window !== 'undefined' && (window as any).gtag) {
